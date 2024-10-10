@@ -1,0 +1,34 @@
+.all-options>div {
+    width: calc(100% + 2px);
+}
+
+.all-options {
+    transition: all 0.3s ease;
+    opacity: 0;
+    height: 0px;
+    display: none;
+}
+
+.all-options.show {
+    display: inline-block;
+    opacity: 1;
+    height: auto;
+}
+
+.boxSelect {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 19px;
+    height: 19px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: white;
+}
+
+.selected-option.multiple {
+    max-height: 62px;
+    overflow-y: scroll;
+    width: 100%;
+    display: flex;
+}

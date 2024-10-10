@@ -1,0 +1,5 @@
+span.disabled {
+    background-color: #eeeeee;
+    color: #696969;
+    cursor: not-allowed;
+}

@@ -1,0 +1,17 @@
+.theme-example {
+    --panel-bg: #ffffff;
+    --panel-bg-hover: #ffffff;
+    --panel-bg-fill: #FFCC00;
+
+    --pointer-bg: #ffffff;
+    --pointer-bg-hover: #FFCC00;
+    --pointer-bg-focus: #FFCC00;
+
+    --pointer-shadow: none;
+    --pointer-shadow-hover: none;
+    --pointer-shadow-focus: none;
+
+    --pointer-border: 0;
+    --pointer-border-hover: 0;
+    --pointer-border-focus: 0;
+}

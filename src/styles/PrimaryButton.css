@@ -1,0 +1,12 @@
+.btn-special:hover img {
+    animation-play-state: paused;
+}
+
+.btn-special:hover span {
+    color: black;
+    background: white;
+}
+
+.btn-special:hover button {
+    background-color: white;
+}

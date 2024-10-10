@@ -1,0 +1,17 @@
+.knock.oculto {
+    animation: hideSettings 0.3s ease forwards;
+    display: none;
+    opacity: 0;
+}
+
+@keyframes hideSettings {
+    from {
+        opacity: 1;
+        display: flex;
+    }
+
+    to {
+        opacity: 0;
+        display: none;
+    }
+}

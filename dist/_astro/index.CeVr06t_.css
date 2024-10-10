@@ -1,0 +1,1 @@
+.splash.ocultar{animation:hideSplash .3s ease forwards;display:none;opacity:0}@keyframes hideSplash{0%{opacity:1;display:flex}to{opacity:0;display:none}}

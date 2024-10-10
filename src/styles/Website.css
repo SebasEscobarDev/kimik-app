@@ -1,0 +1,85 @@
+html {
+    overflow: hidden;
+}
+
+.accordeon {
+    padding-left: 0px;
+    gap: 0;
+}
+
+.accordeon>button>* {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dev-card>button {
+    width: 100%;
+}
+
+.dev-card.accordeon>button {
+    box-shadow: 0 0 0 0.1rem rgba(82, 82, 82, 0.25);
+    width: 35px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.dev-card {
+    top: 0px;
+}
+
+.dev-card>button {
+    animation: showPrincipal 0.5s ease forwards;
+    width: 35px;
+}
+
+@keyframes showPrincipal {
+    from {
+        width: 35px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.dev-card.accordeon {
+    margin-top: 0px;
+}
+
+.dev-card.accordeon>button {
+    animation: showAccordeon 0.5s ease forwards;
+    width: 700px;
+}
+
+@keyframes showAccordeon {
+    from {
+        width: 700px;
+    }
+
+    to {
+        width: 35px;
+    }
+}
+
+
+.dev-card.accordeon>button:hover {
+    width: 70px;
+}
+
+
+.dev-card,
+.dev-card>button {
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#section-dos,
+#section-tres,
+#section-cuatro,
+#section-cinco {
+    overflow: hidden;
+    position: relative;
+}

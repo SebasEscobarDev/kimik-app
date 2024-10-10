@@ -1,0 +1,33 @@
+/* .splash {
+    transition: display 0.5s ease 0.3s;
+    animation: showSplash 0.3s ease;
+    opacity: 1;
+}
+
+@keyframes showSplash {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+} */
+
+.splash.ocultar {
+    animation: hideSplash 0.3s ease forwards;
+    display: none;
+    opacity: 0;
+}
+
+@keyframes hideSplash {
+    from {
+        opacity: 1;
+        display: flex;
+    }
+
+    to {
+        opacity: 0;
+        display: none;
+    }
+}

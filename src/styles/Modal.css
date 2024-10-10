@@ -1,0 +1,8 @@
+.btnCloseModalRegister {
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
+}
+
+.btnCloseModalRegister:hover {
+    transform: rotate(-90deg);
+}

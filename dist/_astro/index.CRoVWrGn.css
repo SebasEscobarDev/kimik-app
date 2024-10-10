@@ -1,0 +1,1 @@
+.knock.oculto{animation:hideSettings .3s ease forwards;display:none;opacity:0}@keyframes hideSettings{0%{opacity:1;display:flex}to{opacity:0;display:none}}

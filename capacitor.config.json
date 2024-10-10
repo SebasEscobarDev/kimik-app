@@ -1,0 +1,16 @@
+{
+  "appId": "kimik.sebasescobar.com",
+  "appName": "kimikApp",
+  "webDir": "dist",
+  "bundledWebRuntime": true,
+  "server": {
+    "androidScheme": "https",
+    "url": "https://kimik.sebasescobar.com/",
+    "cleartext": true
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
