@@ -1,6 +1,7 @@
+// export const urlBuild = 'http://kimik.sebasescobar.com'
 export const urlLocal = 'http://localhost:8000'
-export const urlServer = 'https://api-kimik.sebasescobar.com'
-//actualizar urlGeneral = [urlServer or urlLocal] para hacer build
+export const urlServer = 'https://kimik.sebasescobar.com'
+
 export const urlGeneral = urlLocal
 export const urlApi = urlGeneral
 

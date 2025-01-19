@@ -19,6 +19,7 @@ const useUsers = () => {
             const response = await getAllFilters(user.id);
             const generoInteres = user.genero_interes.split(',');
             console.log(user.nombre)
+            console.log("user")
             console.log(response)
             if (!response.data && !response.data.rows) return;
 
